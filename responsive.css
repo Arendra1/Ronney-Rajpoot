@@ -1,0 +1,667 @@
+@media screen and (max-width: 1350px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /* Hexagon Section */
+
+  .hexagon {
+    height: 67vh;
+    width: 50vw;
+  }
+
+  .imege {
+    width: 33vw;
+    height: 40vh;
+  }
+
+  .shape1 {
+    height: 40vh;
+    width: 33vw;
+    top: 0;
+    left: 4rem;
+  }
+  .shape2 {
+    height: 40vh;
+    width: 33vw;
+  }
+  .shape3 {
+    height: 40vh;
+    width: 33vw;
+    top: -8.91rem;
+  }
+
+  .about,
+  .home {
+    margin-left: 0rem;
+  }
+
+  /* Container Section */
+
+  .middle button {
+    height: 4vh;
+    width: 10vw;
+  }
+
+  .box1 .hexagon1 {
+    height: 8vh;
+    width: 20vw;
+    margin-right: 0.8rem;
+  }
+
+  .box2 .hexagon2 {
+    height: 8vh;
+    width: 20vw;
+    margin-right: 0.8rem;
+  }
+
+  .box3 .hexagon3 {
+    height: 8vh;
+    width: 20vw;
+    margin-right: 0.8rem;
+  }
+
+  /* Client Section */
+
+  .clients {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -8rem;
+  }
+  .clients h3 {
+    justify-content: center;
+  }
+
+  .symbols {
+    justify-content: center;
+    /* margin-left: -2.4rem; */
+  }
+}
+
+/* Responsive for IPAd */
+
+@media screen and (max-width: 1000px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  nav ul li {
+    font-size: 1.3rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 2.4rem;
+  }
+
+  .middle p {
+    font-size: 1.14rem;
+    margin-top: -2rem;
+  }
+
+  .middle button {
+    height: 5vh;
+    width: 7vw;
+  }
+
+  .shape1 {
+    height: 35vh;
+    width: 33vw;
+    top: 5rem;
+  }
+  .shape2 {
+    height: 35vh;
+    width: 33vw;
+    top: -3.5rem;
+    left: -3rem;
+  }
+  .shape3 {
+    height: 35vh;
+    width: 33vw;
+    top: -2.5rem;
+    margin-left: -2.2rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.9rem;
+  }
+  .shape2 .contente {
+    font-size: 0.9rem;
+  }
+  .shape3 .contente {
+    font-size: 0.9rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    margin-top: 1rem;
+  }
+
+  .box1 .hexagon1 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+  .box2 .hexagon2 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+  .box3 .hexagon3 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+
+  /* Client section */
+
+  .clients {
+    margin-top: 2rem;
+  }
+  .clients .symbols img {
+    width: 10vw;
+    height: 7vh;
+  }
+
+  .clients h3 {
+    justify-content: center;
+    font-size: 2.7rem;
+    margin-top: -8rem;
+    margin-bottom: -1.1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  /* Container section */
+
+  .shape1 {
+    height: 33vh;
+    width: 33vw;
+  }
+  .shape2 {
+    height: 33vh;
+    width: 33vw;
+    margin-left: 8rem;
+  }
+
+  .shape3 {
+    height: 33vh;
+    width: 33vw;
+    left: 1.8rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.76rem;
+  }
+  .shape2 .contente {
+    font-size: 0.76rem;
+  }
+  .shape3 .contente {
+    font-size: 0.76rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    font-size: 0.93rem;
+  }
+
+  .box1 .hexagon1 {
+    height: 5vh;
+    width: 18vw;
+    margin-right: 0.4rem;
+  }
+  .box2 .hexagon2 {
+    height: 5vh;
+    width: 18vw;
+    margin-right: 0.4rem;
+  }
+  .box3 .hexagon3 {
+    height: 5vh;
+    width: 18vw;
+    margin-right: 0.4rem;
+  }
+
+  /* Client section */
+  .clients h3 {
+    justify-content: center;
+    font-size: 2.45rem;
+    margin-top: -9rem;
+    margin-bottom: -1.7rem;
+  }
+
+  .clients .symbols img {
+    width: 23vw;
+    height: 5.5vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav ul li {
+    font-size: 1rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 2rem;
+  }
+
+  .middle p {
+    font-size: 0.79rem;
+    margin-top: -2rem;
+  }
+
+  .middle button {
+    height: 4vh;
+    width: 10vw;
+    font-size: 0.6rem;
+  }
+
+  .shape1 {
+    height: 27vh;
+    width: 33vw;
+    top: 6rem;
+    left: 4rem;
+  }
+  .shape2 {
+    height: 27vh;
+    width: 33vw;
+    top: 4rem;
+  }
+
+  .shape3 {
+    height: 27vh;
+    width: 33vw;
+    top: 2.95rem;
+    left: -0.7rem;
+  }
+
+  /* BOX section */
+
+  .boxes {
+    margin-top: -6.6rem;
+  }
+}
+
+/* Responsive for Mobile users */
+
+@media screen and (max-width: 610px) {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 1.6rem;
+  }
+
+  .middle p {
+    font-size: 0.79rem;
+    margin-top: -3rem;
+  }
+
+  .middle button {
+    height: 5vh;
+    width: 8vw;
+    font-size: 0.6rem;
+  }
+
+  .shape1 {
+    height: 24vh;
+    width: 33vw;
+    left: 5rem;
+  }
+  .shape2 {
+    height: 24vh;
+    width: 33vw;
+    top: 4rem;
+    left: -4.6rem;
+  }
+
+  .shape3 {
+    height: 24vh;
+    width: 33vw;
+    top: 7rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.5rem;
+  }
+  .shape2 .contente {
+    font-size: 0.5rem;
+  }
+  .shape3 .contente {
+    font-size: 0.5rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    font-size: 0.7rem;
+    margin-top: -8.7rem;
+  }
+
+  .box1 {
+    padding: 0 1.8rem;
+  }
+  .box2 {
+    padding: 0 1.8rem;
+  }
+  .box3 {
+    padding: 0 1.8rem;
+  }
+
+  .box1 .hexagon1 {
+    height: 3vh;
+    width: 18vw;
+    margin-right: 0.4rem;
+  }
+  .box2 .hexagon2 {
+    height: 3vh;
+    width: 18vw;
+    margin-right: 0.4rem;
+  }
+  .box3 .hexagon3 {
+    height: 3vh;
+    width: 18vw;
+    margin-right: 0.2rem;
+  }
+
+  /* clent section */
+
+  .clients {
+    margin-top: 3rem;
+  }
+
+  .clients h3 {
+    font-size: 2.3rem;
+    margin-top: -6.6rem;
+  }
+
+
+
+.clients .symbols img {
+  height: 4.5vh;
+  width: 22vw ;
+}
+}
+
+@media screen and (max-width: 480px) {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  .middle p {
+    font-size: 0.78rem;
+    margin-top: -3rem;
+  }
+
+  .middle button {
+    height: 5vh;
+    width: 10vw;
+    font-size: 0.6rem;
+  }
+
+  .shape1 {
+    height: 20vh;
+    width: 33vw;
+    left: 6rem;
+  }
+  .shape2 {
+    height: 20vh;
+    width: 33vw;
+    top: 7rem;
+  }
+
+  .shape3 {
+    height: 20vh;
+    width: 33vw;
+    top: 11rem;
+  }
+
+  .boxes {
+    margin-top: -14rem;
+    margin-bottom: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* BOX Section */
+.boxes{
+  flex-wrap: wrap;
+  font-size: .89rem;
+  margin-left: 1rem;
+  
+}
+
+.box1{
+  width: 70vw;
+  height: 25vh;
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
+  border: 2px solid #7D5A5A;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1D1D1;
+
+}
+.box2{
+  width: 70vw;
+  height: 25vh;
+  margin: 1.5rem 0;
+  border: 2px solid #7D5A5A;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1D1D1;
+
+
+
+}
+.box3{
+  width: 70vw;
+  height: 25vh;
+  margin: 1.5rem 0;
+  border: 2px solid #7D5A5A;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1D1D1;
+
+
+}
+
+
+.box1 .hexagon1 {
+  height: 5vh;
+  width: 40vw;
+
+
+}
+.box2 .hexagon2 {
+  height: 5vh;
+  width: 40vw;
+
+
+}
+.box3 .hexagon3 {
+  height: 5vh;
+  width: 40vw;
+
+
+}
+
+
+  /* Client section */
+
+  .clients h3 {
+    margin-top: -6rem;
+  }
+}
+
+@media screen and (max-width:420px) {
+
+  nav ul li {
+    font-size: 0.60rem;
+  }
+
+    /* Container section */
+
+  #container .sample {
+    font-size: .8rem;
+    margin-top: -.40rem;
+  }
+
+  .middle p {
+    font-size: .54rem;
+    margin-top: -4rem;
+ 
+  }
+
+  .middle button {
+    height: 4vh;
+    width: 9vw;
+    font-size: .40rem;
+
+
+  }
+
+   .btn2 {
+     position: relative;
+     left: -1.1rem;
+
+
+   }
+
+    .shape1 {
+      height: 10vh;
+      width: 28vw;
+      top: 4rem;
+      left: 8rem;
+    }
+    .shape2 {
+      height: 10vh;
+      width: 28vw;
+      top: 13.4rem;
+      left: -6rem;
+
+    }
+  
+    .shape3 {
+      height: 10vh;
+      width: 28vw;
+      top: 19.5rem;
+      left: -1.3rem;
+
+    }
+
+
+    .shape1 .contente {
+      font-size: .25rem;
+
+    }
+    .shape2 .contente {
+      font-size: .25rem;
+
+    }
+    .shape3 .contente {
+      font-size: .25rem;
+
+    }
+  
+
+    
+/* BOX Section */
+.boxes{
+  margin-top: -27rem;
+  font-size: 0.70rem;
+
+  
+}
+
+.box1{
+  width: 65vw;
+  height: 17vh;
+
+
+}
+.box2{
+  width: 65vw;
+  height: 17vh;
+}
+
+.box3{
+  width: 65vw;
+  height: 17vh;
+
+
+}
+
+
+}
+
+
+@media screen and (max-width:340px) {
+
+/* container section */
+.middle button {
+  height: 4vh;
+  width: 10vw;
+  font-size: .40rem;
+
+
+}
+
+
+  /* BOX Section */
+.boxes{
+ 
+  font-size: 0.700rem;
+
+}
+
+.box1{
+  width: 68vw;
+  height: 25vh;
+  margin-top: 2rem;
+
+
+}
+.box2{
+  width: 68vw;
+  height: 25vh;
+}
+
+.box3{
+  width: 68vw;
+  height: 25vh;
+
+
+}
+/* client section */
+
+.clients .symbols img {
+  height: 3vh;
+  width: 20vw ;
+}
+
+}
